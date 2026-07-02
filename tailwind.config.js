@@ -4,8 +4,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#3B82F6',
-        teal: '#14B8A6'
+        brand: {
+          blue: '#3B82F6',
+          teal: '#14B8A6'
+        }
       },
       fontFamily: {
         sans: ['Tahoma', 'Arial', 'sans-serif']
